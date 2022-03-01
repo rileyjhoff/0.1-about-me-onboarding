@@ -11,3 +11,7 @@ console.log(button, animalData);
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
+
+button.addEventListener('click', () => {
+    animalData.classList.remove('hidden');
+});
