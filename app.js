@@ -2,7 +2,7 @@
 
 // grab DOM elements
 
-let animalButton = document.getElementById('animal-button');
+const animalButton = document.getElementById('animal-button');
 const animalData = document.getElementById('animal-info');
 
 const carButton = document.getElementById('car-button');
@@ -13,6 +13,9 @@ const foodData = document.getElementById('food-info');
 
 const hobbyButton = document.getElementById('hobby-button');
 const hobbyData = document.getElementById('hobby-info');
+
+const movieButton = document.getElementById('movie-button');
+const movieData = document.getElementById('movie-info');
 
 // set event listeners 
     // get user input
@@ -45,5 +48,11 @@ foodButton.addEventListener('click', () => {
 hobbyButton.addEventListener('click', () => {
     hobbyData.classList.replace('hidden', 'visible');
     hobbyButton.classList.replace('visible', 'hidden');
-    // hobbyButton.classList.replace('hidden', 'visible');
+    movieButton.classList.replace('hidden', 'visible');
+});
+
+movieButton.addEventListener('click', () => {
+    movieData.classList.replace('hidden', 'visible');
+    movieButton.classList.replace('visible', 'hidden');
+    // movieButton.classList.replace('hidden', 'visible');
 });

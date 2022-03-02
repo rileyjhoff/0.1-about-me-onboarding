@@ -43,3 +43,8 @@ footer {
     padding: 10px var(--gutter);
     align-self: stretch;
 }
+
+dl {
+    padding: 0;
+    margin: 0;
+}
