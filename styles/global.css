@@ -40,9 +40,11 @@ main {
 
 
 footer {
-    background-color: var(--chrome-background-opaque);
+    background-color: var(--chrome-background);
     padding: 10px var(--gutter);
     align-self: stretch;
+    position: fixed; 
+    box-sizing: border-box;
 }
 
 dl {

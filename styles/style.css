@@ -78,11 +78,13 @@ p {
 }
 
 footer {
-    position: fixed;
+    position: relative;
+    right: 0px;
+    left: 0px;
     width: 100%;
     bottom: 0;
-    display: flex;
-    justify-content: flex-end;
+    display: block;
+    /* justify-content: flex-end; */
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
